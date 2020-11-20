@@ -73,19 +73,5 @@ private:
 
 int main()
 {
-	Vector3 * vecs = (Vector3 *)malloc(sizeof(Vector3) * 100);
-	for (int i = 0; i < 100; i++)
-		vecs[i] = Vector3(rand() % 10, rand() % 5, rand() % 18);
-
-	while (true){
-		int a = 0;
-		cin >> a;
-		if (a >= 0)
-			if(a < 100)
-				vecs[a].PrintInfo();
-		else
-			return false;
-	}
-
 	return 0;
 }
