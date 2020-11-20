@@ -15,17 +15,21 @@ public:
 			SetRandomName();
 	}
 
-	virtual void operator +=(Vector3 & vec) {
+	virtual void operator +=(Vector3 vec) {
 		x += vec.x;
 		y += vec.y;
 		z += vec.z;
 	}
 
-	virtual void operator -=(Vector3 & vec) {
+	virtual void operator -=(Vector3 vec) {
 		x -= vec.x;
 		y -= vec.y;
 		z -= vec.z;
 	}	
+
+	virtual bool operator ==(Vector3 vec) {
+		return (x == vec.x && y == vec.y && z == vec.z);
+	}
 
 	virtual void operator *=(double vec) {
 		x *= vec;
