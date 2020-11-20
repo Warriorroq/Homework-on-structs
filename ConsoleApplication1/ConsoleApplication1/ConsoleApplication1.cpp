@@ -44,9 +44,10 @@ public:
 	}
 
 	void Normalize(){
-		x /=  Length();
-		y /= Length();
-		z /= Length();
+		double l = Length();
+		x /= l;
+		y /= l;
+		z /= l;
 	}
 
 	string GetName() {
