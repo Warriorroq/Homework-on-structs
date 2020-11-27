@@ -1,2 +1,6 @@
 ﻿  ConsoleApplication1.cpp
+d:\shit\homework on structs\consoleapplication1\consoleapplication1\consoleapplication1.cpp(123): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\shit\homework on structs\consoleapplication1\consoleapplication1\consoleapplication1.cpp(125): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\shit\homework on structs\consoleapplication1\consoleapplication1\consoleapplication1.cpp(127): warning C4244: аргумент: преобразование "double" в "sf::Uint8", возможна потеря данных
+d:\shit\homework on structs\consoleapplication1\consoleapplication1\consoleapplication1.cpp(135): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
   ConsoleApplication1.vcxproj -> D:\Shit\Homework on structs\ConsoleApplication1\Debug\ConsoleApplication1.exe
